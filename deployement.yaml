@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: shivamm-app-prac10
+spec:
+  selector:
+    matchLabels:
+      app: shivamm-app-prac10
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: shivamm-app-prac10
+    spec:
+      containers:
+      - name: nodecontainer
+        # image: au.icr.io/shivamnamespace/newibmimageshivamprac4:2.0
+        # image: br.icr.io/yashlani-nmspc/yslcldnt:1.0
+        image: ca.icr.io/prac10shivam/newimageshivam:v1                
+        ports:
+        - containerPort: 3000

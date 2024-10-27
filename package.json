@@ -1,0 +1,19 @@
+{
+  "name": "prac_10_cloudant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cloudant/cloudant": "^4.5.1",
+    "@ibm-cloud/cloudant": "^0.10.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "ibm-cloud-sdk-core": "^5.1.0"
+  }
+}
